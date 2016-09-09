@@ -47,7 +47,7 @@ Example Playbook
       connection: local
       gather_facts: false
       roles:
-        - { role: kinit-keytab,
+        - { role: mortiz.kinit-keytab,
             username: username@YOURDOMAIN.LOCAL,
             keytab_file: /home/username/username.keytab,
             krb_ticket_lifetime: 60s  }
@@ -56,4 +56,4 @@ Example Playbook
 License
 -------
 
-BSD
+Apache
