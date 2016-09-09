@@ -1,0 +1,34 @@
+galaxy_info:
+  author: Mike Ortiz
+  license: license (Apache)
+  min_ansible_version: 1.4
+  platforms:
+    - name: EL
+      versions:
+      - all
+    - name: Fedora
+      versions:
+      - all
+    - name: opensuse
+      versions:
+      - all
+    - name: MacOSX
+      versions:
+      - all
+    - name: Ubuntu
+      versions:
+      - all
+    - name: SLES
+      versions:
+      - all
+    - name: GenericLinux
+      versions:
+      - all
+    - name: Debian
+      versions:
+      - all
+  galaxy_tags:
+    - windows
+    - kerberos
+    - kinit
+dependencies: []
