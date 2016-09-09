@@ -1,4 +1,4 @@
 ---
 # tasks file for ansible-kinit-keytab
 - name: kinit
-    shell: kinit -k -t "{{ keytab_file  }}" -l {{ krb_ticket_lifetime  }} {{ username  }}
+  shell: kinit -k -t "{{ keytab_file  }}" -l {{ krb_ticket_lifetime  }} {{ username  }}
